@@ -1,0 +1,31 @@
+header {
+  background-color: #F5ECE0;
+  color: black;
+}
+
+header h1 {
+  padding-top: 20px;
+  
+}
+
+.summary-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+}
+
+.examples-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+nav {
+  background-color: #5F99AE;
+  padding: 10px;
+}
+
+.link {
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+}

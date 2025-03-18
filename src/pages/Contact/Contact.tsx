@@ -1,16 +1,18 @@
 import React from "react";
+import "./Contact.css";
 
 const Contact = () => {
   return (
     <>
+      <h1>Contact Form</h1>
       <form action="">
-        <p>Enter name:</p>
+        <p>Name:</p>
         <input type="text" />
 
-        <p>Enter age:</p>
+        <p>Email:</p>
         <input type="number" />
 
-        <button type="submit"></button>
+        <button type="submit">Submit</button>
       </form>
     </>
   );

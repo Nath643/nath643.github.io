@@ -1,0 +1,21 @@
+.outer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+
+.first-image {
+  width: 379px;
+  height: 250px;
+}
+
+.second-image {
+  width: 379px;
+  height: 250px;
+}
+
+.text {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}

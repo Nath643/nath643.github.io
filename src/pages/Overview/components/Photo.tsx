@@ -4,7 +4,7 @@ import "./Photo.css";
 const Photo = () => {
   return (
     <>
-      <img src="../public/IMG_5762.JPG" alt="" />
+      <img src="../public/profile_icon.JPG" alt="" />
     </>
   );
 };

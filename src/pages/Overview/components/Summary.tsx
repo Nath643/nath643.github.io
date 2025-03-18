@@ -1,13 +1,14 @@
 import React from "react";
+import "./Summary.css";
 
 const Summary = () => {
   return (
     <>
       <p>
-        I am capable of web development. Primarily, I am familiar with HTML,
-        CSS, and JavaScript. I also have basic knowledge of reactjs, typescript,
-        and nodejs. I can build front-end applications, and I can build basic
-        back-ends. I started coding, making websites, when I was 10 or 11.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+        autem maiores amet harum, dicta excepturi tempora sunt minima commodi
+        obcaecati corporis a labore dignissimos alias, exercitationem sapiente
+        fugiat possimus tempore.
       </p>
     </>
   );
