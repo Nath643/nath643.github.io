@@ -12,7 +12,9 @@ const Contact = () => {
         <p>Email:</p>
         <input type="number" />
 
-        <button type="submit">Submit</button>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
       </form>
     </>
   );
