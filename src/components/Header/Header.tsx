@@ -9,18 +9,16 @@ const Header = () => {
         <h1>Portfolio Website</h1>
         <nav>
           <Link className="link" to="/">
-            Overview
-          </Link>
-          <Link className="link" to="/projects">
             Projects
           </Link>
-          <Link className="link" to="/skills">
-            Skills
-          </Link>
-          <Link className="link" to="/contact">
-            Contact
-          </Link>
         </nav>
+        <a href="https://github.com/Nath643/">
+          <img
+            src="../Octicons-mark-github.svg"
+            alt="GitHub logo, clickable link"
+            className="github-link"
+          />
+        </a>
       </header>
     </>
   );

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <p>Copyright &copy; 2025 Nathan Walker.</p>
+        <p>Copyright &copy; 2026 Nathan Walker.</p>
       </footer>
     </>
   );

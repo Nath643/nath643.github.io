@@ -1,0 +1,11 @@
+.video-stream-images img {
+  width: 861px;
+  height: 405px;
+}
+
+.video-stream-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}

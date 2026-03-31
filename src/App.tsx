@@ -1,28 +1,26 @@
-import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Layout from "./components/Layout/Layout";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Overview from "./pages/Overview/Overview";
 import Projects from "./pages/Projects/Projects";
-import Skills from "./pages/Skills/Skills";
-import Contact from "./pages/Contact/Contact";
+import ClimbFinder from "./pages/Projects/components/climb-finder";
+import Daintree from "./pages/Projects/components/Daintree";
+import VideoStream from "./pages/Projects/components/VideoStream";
+import SmallJsProjects from "./pages/Projects/components/SmallJsProjects";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       <Router>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Overview />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="skills" element={<Skills />} />
-            <Route path="contact" element={<Contact />} />
+            <Route index element={<Projects />} />
+            <Route path="projects/climb-finder" element={<ClimbFinder />} />
+            <Route path="projects/daintree" element={<Daintree />} />
+            <Route path="projects/video-stream" element={<VideoStream />} />
+            <Route
+              path="projects/SmallJsProjects"
+              element={<SmallJsProjects />}
+            />
           </Route>
         </Routes>
       </Router>

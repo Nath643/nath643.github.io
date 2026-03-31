@@ -1,0 +1,11 @@
+.small-js-projects-images img {
+  width: 861px;
+  height: 405px;
+}
+
+.small-js-projects-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
