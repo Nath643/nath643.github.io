@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="project-section climb-finder-section">
         <h3>Climb Finder</h3>
         <div className="project-sub-section">
-          <img src="../climb-finder-1.png" alt="Climb Finder Screenshot" />
+          <img src="/climb-finder-1.png" alt="Climb Finder Screenshot" />
           <div className="link-and-text">
             <Link to="projects/climb-finder" className="project-link">
               See more about this project
@@ -29,7 +29,7 @@ const Projects = () => {
       <div className="project-section daintree-section">
         <h3>Daintree</h3>
         <div className="project-sub-section">
-          <img src="../daintree-1.png" alt="Daintree Screenshot" />
+          <img src="/daintree-1.png" alt="Daintree Screenshot" />
           <div className="link-and-text">
             <Link to="projects/daintree" className="project-link">
               See more about this project
@@ -46,7 +46,7 @@ const Projects = () => {
       <div className="project-section video-stream-section">
         <h3>Video Stream</h3>
         <div className="project-sub-section">
-          <img src="../video-stream.png" alt="Video Stream Screenshot" />
+          <img src="/video-stream.png" alt="Video Stream Screenshot" />
           <div className="link-and-text">
             <Link to="projects/video-stream" className="project-link">
               See more about this project
@@ -54,7 +54,7 @@ const Projects = () => {
             <p>
               Video Stream is a mockup video streaming app made with only HTML
               and CSS. This was also originally created following a tutorial,
-              and has been modified.{" "}
+              and has been modified.
             </p>
           </div>
         </div>
@@ -65,16 +65,16 @@ const Projects = () => {
         <div className="project-sub-section">
           <div className="images-container">
             <img
-              src="../rock-paper-scissors.png"
+              src="/rock-paper-scissors.png"
               alt="Small JavaScript Projects Screenshot"
             />
             <img
-              src="../text-editor.png"
+              src="/text-editor.png"
               alt="Small JavaScript Projects Screenshot"
             />
           </div>
           <div className="link-and-text small-js-link-and-text">
-            <Link to="projects/SmallJsProjects" className="project-link">
+            <Link to="projects/small-js-projects" className="project-link">
               Click here to view more about these projects
             </Link>
             <p>
@@ -83,7 +83,7 @@ const Projects = () => {
               text editor was built from scratch.
             </p>
             <img
-              src="../to-do-list.png"
+              src="/to-do-list.png"
               alt="Small JavaScript Projects Screenshot"
               className="to-do-list-image"
             />
