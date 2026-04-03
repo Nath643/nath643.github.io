@@ -72,20 +72,21 @@ const Projects = () => {
               src="../text-editor.png"
               alt="Small JavaScript Projects Screenshot"
             />
-            <img
-              src="../to-do-list.png"
-              alt="Small JavaScript Projects Screenshot"
-            />
           </div>
-          <div className="link-and-text">
+          <div className="link-and-text small-js-link-and-text">
             <Link to="projects/SmallJsProjects" className="project-link">
               Click here to view more about these projects
             </Link>
             <p>
-              These are simple javascript projects. The calculator and to do
-              list were built following a tutorial, whereas the text editor was
-              built from scratch.
+              These are simple javascript projects. The Rock, Paper, Scissors
+              game, and To Do list were built following a tutorial, whereas the
+              text editor was built from scratch.
             </p>
+            <img
+              src="../to-do-list.png"
+              alt="Small JavaScript Projects Screenshot"
+              className="to-do-list-image"
+            />
           </div>
         </div>
       </div>

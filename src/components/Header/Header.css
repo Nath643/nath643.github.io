@@ -29,3 +29,7 @@ nav {
   height: 30px;
   margin-left: 20px;
 }
+
+header img {
+  border: none;
+}

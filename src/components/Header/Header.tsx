@@ -12,7 +12,11 @@ const Header = () => {
             Projects
           </Link>
         </nav>
-        <a href="https://github.com/Nath643/">
+        <a
+          href="https://github.com/Nath643/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             src="../Octicons-mark-github.svg"
             alt="GitHub logo, clickable link"
