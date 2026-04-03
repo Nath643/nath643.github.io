@@ -1,5 +1,4 @@
-import React from "react";
-import "./climb-finder.css";
+import "./ClimbFinder.css";
 
 const ClimbFinder = () => {
   return (

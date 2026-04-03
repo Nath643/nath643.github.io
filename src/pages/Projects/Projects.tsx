@@ -1,4 +1,3 @@
-import React from "react";
 import "./Projects.css";
 import { Link } from "react-router-dom";
 
@@ -12,7 +11,7 @@ const Projects = () => {
         <div className="project-sub-section">
           <img src="/climb-finder-1.png" alt="Climb Finder Screenshot" />
           <div className="link-and-text">
-            <Link to="projects/climb-finder" className="project-link">
+            <Link to="projects/ClimbFinder" className="project-link">
               See more about this project
             </Link>
             <p>
