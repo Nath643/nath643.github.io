@@ -17,7 +17,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="../Octicons-mark-github.svg"
+            src="./Octicons-mark-github.svg"
             alt="GitHub logo, clickable link"
             className="github-link"
           />
