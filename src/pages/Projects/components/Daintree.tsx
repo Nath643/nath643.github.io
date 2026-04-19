@@ -4,6 +4,7 @@ const Daintree = () => {
   return (
     <>
       <h2>Daintree</h2>
+      <a href="/Daintree/amazon.html">Open App Here</a>
       <div className="daintree-images">
         <img src="./daintree-2.png" alt="Daintree Screenshot" />
         <img src="./daintree-3.png" alt="Daintree Screenshot" />
