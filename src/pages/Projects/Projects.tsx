@@ -74,7 +74,7 @@ const Projects = () => {
           </div>
           <div className="link-and-text small-js-link-and-text">
             <Link to="projects/small-js-projects" className="project-link">
-              Click here to view more about these projects
+              See more about these projects
             </Link>
             <p>
               These are simple javascript projects. The Rock, Paper, Scissors
